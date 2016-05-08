@@ -72,6 +72,52 @@ namespace DHaven.BibleUtilities
             return false;
         }
 
+        /// <summary>
+        /// Test for equality
+        /// </summary>
+        /// <param name="reference1">the left hand reference</param>
+        /// <param name="reference2">the right hand reference</param>
+        /// <returns>true if they are equal</returns>
+        public static bool operator ==(Reference reference1, Reference reference2)
+        {
+            // If both are null, or both are same instance, return true.
+            if (ReferenceEquals(reference1, reference2))
+            {
+                return true;
+            }
+
+            // If one is null, but not both, return false.
+            if (((object)reference1 == null) || ((object)reference2 == null))
+            {
+                return false;
+            }
+
+            return reference1.Equals(reference2);
+        }
+
+        /// <summary>
+        /// Test for inequality.
+        /// </summary>
+        /// <param name="reference1">the left hand reference</param>
+        /// <param name="reference2">the right hand reference</param>
+        /// <returns>true if they are not equal</returns>
+        public static bool operator !=(Reference reference1, Reference reference2)
+        {
+            // If both are null, or both are same instance, return false.
+            if (ReferenceEquals(reference1, reference2))
+            {
+                return false;
+            }
+
+            // If one is null, but not both, return true.
+            if (((object)reference1 == null) || ((object)reference2 == null))
+            {
+                return true;
+            }
+
+            return !reference1.Equals(reference2);
+        }
+
         public override int GetHashCode()
         {
             unchecked // Overflow is fine, just wrap

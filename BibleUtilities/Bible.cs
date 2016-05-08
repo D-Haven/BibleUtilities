@@ -23,7 +23,7 @@ namespace DHaven.BibleUtilities
 
         public Bible(CultureInfo culture)
         {
-            Culture = culture;
+            bibleCulture = culture;
 
             oldTestament = new List<Book> {
                 new Book("Genesis", 50, Culture), // Gen
@@ -47,7 +47,7 @@ namespace DHaven.BibleUtilities
                 new Book("Psalms", 150, Culture), // Ps
                 new Book("Proverbs", 31, Culture), // Prov
                 new Book("Ecclesiastes", 12, Culture), // Eccl
-                new Book("Song of Solomon", 8, Culture), // Song
+                new Book("SongOfSolomon", 8, Culture), // Song
                 new Book("Isaiah", 66, Culture), // Isa
                 new Book("Jeremiah", 52, Culture), // Jer
                 new Book("Lamentations", 5, Culture), // Lam

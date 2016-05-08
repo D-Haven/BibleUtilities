@@ -834,10 +834,12 @@
         <trans-unit id="Fifth" translate="yes" xml:space="preserve">
           <source>Fifth</source>
           <target state="new">Fifth</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to detect when the numeric part of a book is written as a word</note>
         </trans-unit>
         <trans-unit id="Fourth" translate="yes" xml:space="preserve">
           <source>Fourth</source>
           <target state="new">Fourth</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to detect when the numeric part of a book is written as a word</note>
         </trans-unit>
       </group>
     </body>
