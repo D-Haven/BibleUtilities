@@ -1,0 +1,1118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nb" original="BIBLEUTILITIES/RESOURCES/COMMONMISTAKES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BIBLEUTILITIES/RESOURCES/COMMONMISTAKES.RESX" datatype="resx">
+        <trans-unit id="Acts" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Amos" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Colossians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Daniel" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Deuteronomy" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Ecclesiastes" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Ephesians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Esther" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Exodus" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Ezekiel" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Ezra" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Galatians" translate="yes" xml:space="preserve">
+          <source>Galations</source>
+          <target state="final">Galations</target>
+        </trans-unit>
+        <trans-unit id="Genesis" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Habakkuk" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Haggai" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Hebrews" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Hosea" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Isaiah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="James" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Jeremiah" translate="yes" xml:space="preserve">
+          <source>Jerimiah</source>
+          <target state="final">Jerimiah</target>
+        </trans-unit>
+        <trans-unit id="Job" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Joel" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="John" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Jonah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Joshua" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Jude" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Judges" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Lamentations" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Leviticus" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Luke" translate="yes" xml:space="preserve">
+          <source>Like</source>
+          <target state="final">Like</target>
+        </trans-unit>
+        <trans-unit id="Malachai" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Mark" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Matthew" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Micah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Nahum" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Nehemiah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Numbers" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Obadaiah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneChronicles" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneCorinthians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneJohn" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneKings" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OnePeter" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneSamuel" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneThessalonians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="OneTimothy" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Philemon" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Philippians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Proverbs" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Psalms" translate="yes" xml:space="preserve">
+          <source>Psalm</source>
+          <target state="final">Psalm</target>
+        </trans-unit>
+        <trans-unit id="Revelation" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Romans" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Ruth" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="SongOfSolomon" translate="yes" xml:space="preserve">
+          <source>Song of Songs</source>
+          <target state="final">Salomos Høysang</target>
+        </trans-unit>
+        <trans-unit id="ThreeJohn" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Titus" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoChronicles" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoCorinthians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoJohn" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoKings" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoPeter" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoSamuel" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoThessalonians" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="TwoTimothy" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Zechariah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="Zephaniah" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="nb" original="BIBLEUTILITIES/RESOURCES/THOMPSONABBREVIATIONS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BIBLEUTILITIES/RESOURCES/THOMPSONABBREVIATIONS.RESX" datatype="resx">
+        <trans-unit id="Acts" translate="yes" xml:space="preserve">
+          <source>Ac</source>
+          <target state="final">Apg</target>
+        </trans-unit>
+        <trans-unit id="Amos" translate="yes" xml:space="preserve">
+          <source>Am</source>
+          <target state="final">Am</target>
+        </trans-unit>
+        <trans-unit id="Colossians" translate="yes" xml:space="preserve">
+          <source>Col</source>
+          <target state="final">Col</target>
+        </trans-unit>
+        <trans-unit id="Daniel" translate="yes" xml:space="preserve">
+          <source>Da</source>
+          <target state="final">Da</target>
+        </trans-unit>
+        <trans-unit id="Deuteronomy" translate="yes" xml:space="preserve">
+          <source>De</source>
+          <target state="final">5 Mo</target>
+        </trans-unit>
+        <trans-unit id="Ecclesiastes" translate="yes" xml:space="preserve">
+          <source>Ec</source>
+          <target state="final">Fk</target>
+        </trans-unit>
+        <trans-unit id="Ephesians" translate="yes" xml:space="preserve">
+          <source>Ep</source>
+          <target state="final">Ef</target>
+        </trans-unit>
+        <trans-unit id="Esther" translate="yes" xml:space="preserve">
+          <source>Est</source>
+          <target state="final">Est</target>
+        </trans-unit>
+        <trans-unit id="Exodus" translate="yes" xml:space="preserve">
+          <source>Ex</source>
+          <target state="final">2 Mo</target>
+        </trans-unit>
+        <trans-unit id="Ezekiel" translate="yes" xml:space="preserve">
+          <source>Ez</source>
+          <target state="final">Es</target>
+        </trans-unit>
+        <trans-unit id="Ezra" translate="yes" xml:space="preserve">
+          <source>Ezr</source>
+          <target state="final">Esr</target>
+        </trans-unit>
+        <trans-unit id="Galatians" translate="yes" xml:space="preserve">
+          <source>Ga</source>
+          <target state="final">Ga</target>
+        </trans-unit>
+        <trans-unit id="Genesis" translate="yes" xml:space="preserve">
+          <source>Ge</source>
+          <target state="final">1 Mo</target>
+        </trans-unit>
+        <trans-unit id="Habakkuk" translate="yes" xml:space="preserve">
+          <source>Hab</source>
+          <target state="final">Hab</target>
+        </trans-unit>
+        <trans-unit id="Haggai" translate="yes" xml:space="preserve">
+          <source>Hag</source>
+          <target state="final">Hag</target>
+        </trans-unit>
+        <trans-unit id="Hebrews" translate="yes" xml:space="preserve">
+          <source>He</source>
+          <target state="final">He</target>
+        </trans-unit>
+        <trans-unit id="Hosea" translate="yes" xml:space="preserve">
+          <source>Ho</source>
+          <target state="final">Ho</target>
+        </trans-unit>
+        <trans-unit id="Isaiah" translate="yes" xml:space="preserve">
+          <source>Is</source>
+          <target state="final">Js</target>
+        </trans-unit>
+        <trans-unit id="James" translate="yes" xml:space="preserve">
+          <source>Ja</source>
+          <target state="final">Ja</target>
+        </trans-unit>
+        <trans-unit id="Jeremiah" translate="yes" xml:space="preserve">
+          <source>Je</source>
+          <target state="final">Je</target>
+        </trans-unit>
+        <trans-unit id="Job" translate="yes" xml:space="preserve">
+          <source>Jb</source>
+          <target state="final">Jb</target>
+        </trans-unit>
+        <trans-unit id="Joel" translate="yes" xml:space="preserve">
+          <source>Joel</source>
+          <target state="final">Joel</target>
+        </trans-unit>
+        <trans-unit id="John" translate="yes" xml:space="preserve">
+          <source>Jn</source>
+          <target state="final">Jn</target>
+        </trans-unit>
+        <trans-unit id="Jonah" translate="yes" xml:space="preserve">
+          <source>Jona</source>
+          <target state="final">Jona</target>
+        </trans-unit>
+        <trans-unit id="Joshua" translate="yes" xml:space="preserve">
+          <source>Jos</source>
+          <target state="final">Jos</target>
+        </trans-unit>
+        <trans-unit id="Jude" translate="yes" xml:space="preserve">
+          <source>Jude</source>
+          <target state="final">Judas</target>
+        </trans-unit>
+        <trans-unit id="Judges" translate="yes" xml:space="preserve">
+          <source>Jud</source>
+          <target state="final">Dom</target>
+        </trans-unit>
+        <trans-unit id="Lamentations" translate="yes" xml:space="preserve">
+          <source>Lam</source>
+          <target state="final">Kla</target>
+        </trans-unit>
+        <trans-unit id="Leviticus" translate="yes" xml:space="preserve">
+          <source>Le</source>
+          <target state="final">3 Mo</target>
+        </trans-unit>
+        <trans-unit id="Luke" translate="yes" xml:space="preserve">
+          <source>Lu</source>
+          <target state="final">Lu</target>
+        </trans-unit>
+        <trans-unit id="Malachai" translate="yes" xml:space="preserve">
+          <source>Mal</source>
+          <target state="final">Mal</target>
+        </trans-unit>
+        <trans-unit id="Mark" translate="yes" xml:space="preserve">
+          <source>Mk</source>
+          <target state="final">Mk</target>
+        </trans-unit>
+        <trans-unit id="Matthew" translate="yes" xml:space="preserve">
+          <source>Mt</source>
+          <target state="final">Mt</target>
+        </trans-unit>
+        <trans-unit id="Micah" translate="yes" xml:space="preserve">
+          <source>Mi</source>
+          <target state="final">Mi</target>
+        </trans-unit>
+        <trans-unit id="Nahum" translate="yes" xml:space="preserve">
+          <source>Na</source>
+          <target state="final">Na</target>
+        </trans-unit>
+        <trans-unit id="Nehemiah" translate="yes" xml:space="preserve">
+          <source>Ne</source>
+          <target state="final">Ne</target>
+        </trans-unit>
+        <trans-unit id="Numbers" translate="yes" xml:space="preserve">
+          <source>Nu</source>
+          <target state="final">4 Mo</target>
+        </trans-unit>
+        <trans-unit id="Obadaiah" translate="yes" xml:space="preserve">
+          <source>Obad</source>
+          <target state="final">Ob</target>
+        </trans-unit>
+        <trans-unit id="OneChronicles" translate="yes" xml:space="preserve">
+          <source>1 Chr</source>
+          <target state="final">1 Krø</target>
+        </trans-unit>
+        <trans-unit id="OneCorinthians" translate="yes" xml:space="preserve">
+          <source>1 Co</source>
+          <target state="final">1 Kor</target>
+        </trans-unit>
+        <trans-unit id="OneJohn" translate="yes" xml:space="preserve">
+          <source>1 Jn</source>
+          <target state="final">1 Jn</target>
+        </trans-unit>
+        <trans-unit id="OneKings" translate="yes" xml:space="preserve">
+          <source>1 K</source>
+          <target state="final">1 K</target>
+        </trans-unit>
+        <trans-unit id="OnePeter" translate="yes" xml:space="preserve">
+          <source>1 Pe</source>
+          <target state="final">1 Pe</target>
+        </trans-unit>
+        <trans-unit id="OneSamuel" translate="yes" xml:space="preserve">
+          <source>1 S</source>
+          <target state="final">1 S</target>
+        </trans-unit>
+        <trans-unit id="OneThessalonians" translate="yes" xml:space="preserve">
+          <source>1 Th</source>
+          <target state="final">1 Te</target>
+        </trans-unit>
+        <trans-unit id="OneTimothy" translate="yes" xml:space="preserve">
+          <source>1 Ti</source>
+          <target state="final">1 Ti</target>
+        </trans-unit>
+        <trans-unit id="Philemon" translate="yes" xml:space="preserve">
+          <source>Phm</source>
+          <target state="final">File</target>
+        </trans-unit>
+        <trans-unit id="Philippians" translate="yes" xml:space="preserve">
+          <source>Ph</source>
+          <target state="final">Fi</target>
+        </trans-unit>
+        <trans-unit id="Proverbs" translate="yes" xml:space="preserve">
+          <source>Pr</source>
+          <target state="final">Or</target>
+        </trans-unit>
+        <trans-unit id="Psalms" translate="yes" xml:space="preserve">
+          <source>Ps</source>
+          <target state="final">Sl</target>
+        </trans-unit>
+        <trans-unit id="Revelation" translate="yes" xml:space="preserve">
+          <source>Re</source>
+          <target state="final">Åp</target>
+        </trans-unit>
+        <trans-unit id="Romans" translate="yes" xml:space="preserve">
+          <source>Ro</source>
+          <target state="final">Ro</target>
+        </trans-unit>
+        <trans-unit id="Ruth" translate="yes" xml:space="preserve">
+          <source>Ru</source>
+          <target state="final">Ru.</target>
+        </trans-unit>
+        <trans-unit id="SongOfSolomon" translate="yes" xml:space="preserve">
+          <source>Song</source>
+          <target state="final">Høys</target>
+        </trans-unit>
+        <trans-unit id="ThreeJohn" translate="yes" xml:space="preserve">
+          <source>3 Jn</source>
+          <target state="final">3 Jn</target>
+        </trans-unit>
+        <trans-unit id="Titus" translate="yes" xml:space="preserve">
+          <source>Tit</source>
+          <target state="final">Tit</target>
+        </trans-unit>
+        <trans-unit id="TwoChronicles" translate="yes" xml:space="preserve">
+          <source>2 Chr</source>
+          <target state="final">2 Krø</target>
+        </trans-unit>
+        <trans-unit id="TwoCorinthians" translate="yes" xml:space="preserve">
+          <source>2 Co</source>
+          <target state="final">2 Kor</target>
+        </trans-unit>
+        <trans-unit id="TwoJohn" translate="yes" xml:space="preserve">
+          <source>2 Jn</source>
+          <target state="final">2 Jn</target>
+        </trans-unit>
+        <trans-unit id="TwoKings" translate="yes" xml:space="preserve">
+          <source>2 K</source>
+          <target state="final">2 K</target>
+        </trans-unit>
+        <trans-unit id="TwoPeter" translate="yes" xml:space="preserve">
+          <source>2 Pe</source>
+          <target state="final">2 Pe</target>
+        </trans-unit>
+        <trans-unit id="TwoSamuel" translate="yes" xml:space="preserve">
+          <source>2 S</source>
+          <target state="final">2 S</target>
+        </trans-unit>
+        <trans-unit id="TwoThessalonians" translate="yes" xml:space="preserve">
+          <source>2 Th</source>
+          <target state="final">2 Te</target>
+        </trans-unit>
+        <trans-unit id="TwoTimothy" translate="yes" xml:space="preserve">
+          <source>2 Ti</source>
+          <target state="final">2 Ti</target>
+        </trans-unit>
+        <trans-unit id="Zechariah" translate="yes" xml:space="preserve">
+          <source>Zec</source>
+          <target state="final">Zec</target>
+        </trans-unit>
+        <trans-unit id="Zephaniah" translate="yes" xml:space="preserve">
+          <source>Zep</source>
+          <target state="final">Sef</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="nb" original="BIBLEUTILITIES/RESOURCES/BOOKS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BIBLEUTILITIES/RESOURCES/BOOKS.RESX" datatype="resx">
+        <trans-unit id="Acts" translate="yes" xml:space="preserve">
+          <source>Acts</source>
+          <target state="final">Apostelgjerningene</target>
+        </trans-unit>
+        <trans-unit id="Amos" translate="yes" xml:space="preserve">
+          <source>Amos</source>
+          <target state="final">Amos</target>
+        </trans-unit>
+        <trans-unit id="Colossians" translate="yes" xml:space="preserve">
+          <source>Colossians</source>
+          <target state="final">Kolosserne</target>
+        </trans-unit>
+        <trans-unit id="Daniel" translate="yes" xml:space="preserve">
+          <source>Daniel</source>
+          <target state="final">Daniel</target>
+        </trans-unit>
+        <trans-unit id="Deuteronomy" translate="yes" xml:space="preserve">
+          <source>Deuteronomy</source>
+          <target state="final">5 Mosebok</target>
+        </trans-unit>
+        <trans-unit id="Ecclesiastes" translate="yes" xml:space="preserve">
+          <source>Ecclesiastes</source>
+          <target state="final">Forkynneren</target>
+        </trans-unit>
+        <trans-unit id="Ephesians" translate="yes" xml:space="preserve">
+          <source>Ephesians</source>
+          <target state="final">Efeserene</target>
+        </trans-unit>
+        <trans-unit id="Esther" translate="yes" xml:space="preserve">
+          <source>Esther</source>
+          <target state="final">Ester</target>
+        </trans-unit>
+        <trans-unit id="Exodus" translate="yes" xml:space="preserve">
+          <source>Exodus</source>
+          <target state="final">2 Mosebok</target>
+        </trans-unit>
+        <trans-unit id="Ezekiel" translate="yes" xml:space="preserve">
+          <source>Ezekiel</source>
+          <target state="final">Esekiel</target>
+        </trans-unit>
+        <trans-unit id="Ezra" translate="yes" xml:space="preserve">
+          <source>Ezra</source>
+          <target state="final">Esra</target>
+        </trans-unit>
+        <trans-unit id="First" translate="yes" xml:space="preserve">
+          <source>First</source>
+          <target state="final">Først</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to detect when the numeric part of a book is written as a word</note>
+        </trans-unit>
+        <trans-unit id="Galatians" translate="yes" xml:space="preserve">
+          <source>Galatians</source>
+          <target state="final">Galaterne</target>
+        </trans-unit>
+        <trans-unit id="Genesis" translate="yes" xml:space="preserve">
+          <source>Genesis</source>
+          <target state="final">1 Mosebok</target>
+        </trans-unit>
+        <trans-unit id="Habakkuk" translate="yes" xml:space="preserve">
+          <source>Habakkuk</source>
+          <target state="final">Habakkuk</target>
+        </trans-unit>
+        <trans-unit id="Haggai" translate="yes" xml:space="preserve">
+          <source>Haggai</source>
+          <target state="final">Haggai</target>
+        </trans-unit>
+        <trans-unit id="Hebrews" translate="yes" xml:space="preserve">
+          <source>Hebrews</source>
+          <target state="final">Hebreerne</target>
+        </trans-unit>
+        <trans-unit id="Hosea" translate="yes" xml:space="preserve">
+          <source>Hosea</source>
+          <target state="final">Hosea</target>
+        </trans-unit>
+        <trans-unit id="Isaiah" translate="yes" xml:space="preserve">
+          <source>Isaiah</source>
+          <target state="final">Jesaia</target>
+        </trans-unit>
+        <trans-unit id="James" translate="yes" xml:space="preserve">
+          <source>James</source>
+          <target state="final">Jakob</target>
+        </trans-unit>
+        <trans-unit id="Jeremiah" translate="yes" xml:space="preserve">
+          <source>Jeremiah</source>
+          <target state="final">Jeremia</target>
+        </trans-unit>
+        <trans-unit id="Job" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="final">Job</target>
+        </trans-unit>
+        <trans-unit id="Joel" translate="yes" xml:space="preserve">
+          <source>Joel</source>
+          <target state="final">Joel</target>
+        </trans-unit>
+        <trans-unit id="John" translate="yes" xml:space="preserve">
+          <source>John</source>
+          <target state="final">Johannes</target>
+        </trans-unit>
+        <trans-unit id="Jonah" translate="yes" xml:space="preserve">
+          <source>Jonah</source>
+          <target state="final">Jona</target>
+        </trans-unit>
+        <trans-unit id="Joshua" translate="yes" xml:space="preserve">
+          <source>Joshua</source>
+          <target state="final">Josva</target>
+        </trans-unit>
+        <trans-unit id="Jude" translate="yes" xml:space="preserve">
+          <source>Jude</source>
+          <target state="final">Judas</target>
+        </trans-unit>
+        <trans-unit id="Judges" translate="yes" xml:space="preserve">
+          <source>Judges</source>
+          <target state="final">Dommerne</target>
+        </trans-unit>
+        <trans-unit id="Lamentations" translate="yes" xml:space="preserve">
+          <source>Lamentations</source>
+          <target state="final">Klagesangene</target>
+        </trans-unit>
+        <trans-unit id="Leviticus" translate="yes" xml:space="preserve">
+          <source>Leviticus</source>
+          <target state="final">3 Mosebok</target>
+        </trans-unit>
+        <trans-unit id="Luke" translate="yes" xml:space="preserve">
+          <source>Luke</source>
+          <target state="final">Lukas</target>
+        </trans-unit>
+        <trans-unit id="Malachai" translate="yes" xml:space="preserve">
+          <source>Malachai</source>
+          <target state="final">Malaki</target>
+        </trans-unit>
+        <trans-unit id="Mark" translate="yes" xml:space="preserve">
+          <source>Mark</source>
+          <target state="final">Markus</target>
+        </trans-unit>
+        <trans-unit id="Matthew" translate="yes" xml:space="preserve">
+          <source>Matthew</source>
+          <target state="final">Matteus</target>
+        </trans-unit>
+        <trans-unit id="Micah" translate="yes" xml:space="preserve">
+          <source>Micah</source>
+          <target state="final">Mika</target>
+        </trans-unit>
+        <trans-unit id="Nahum" translate="yes" xml:space="preserve">
+          <source>Nahum</source>
+          <target state="final">Nahum</target>
+        </trans-unit>
+        <trans-unit id="Nehemiah" translate="yes" xml:space="preserve">
+          <source>Nehemiah</source>
+          <target state="final">Nehemja</target>
+        </trans-unit>
+        <trans-unit id="Numbers" translate="yes" xml:space="preserve">
+          <source>Numbers</source>
+          <target state="final">4 Mosebok</target>
+        </trans-unit>
+        <trans-unit id="Obadaiah" translate="yes" xml:space="preserve">
+          <source>Obadaiah</source>
+          <target state="final">Obdaja</target>
+        </trans-unit>
+        <trans-unit id="OneChronicles" translate="yes" xml:space="preserve">
+          <source>1 Chronicles</source>
+          <target state="final">1 Krønikebok</target>
+        </trans-unit>
+        <trans-unit id="OneCorinthians" translate="yes" xml:space="preserve">
+          <source>1 Corinthians</source>
+          <target state="final">1 Korinterene</target>
+        </trans-unit>
+        <trans-unit id="OneJohn" translate="yes" xml:space="preserve">
+          <source>1 John</source>
+          <target state="final">1 Johannes</target>
+        </trans-unit>
+        <trans-unit id="OneKings" translate="yes" xml:space="preserve">
+          <source>1 Kings</source>
+          <target state="final">1 Kongebok</target>
+        </trans-unit>
+        <trans-unit id="OnePeter" translate="yes" xml:space="preserve">
+          <source>1 Peter</source>
+          <target state="final">1 Peter</target>
+        </trans-unit>
+        <trans-unit id="OneSamuel" translate="yes" xml:space="preserve">
+          <source>1 Samuel</source>
+          <target state="final">1 Samuel</target>
+        </trans-unit>
+        <trans-unit id="OneThessalonians" translate="yes" xml:space="preserve">
+          <source>1 Thessalonians</source>
+          <target state="final">1 Tessalonikerne</target>
+        </trans-unit>
+        <trans-unit id="OneTimothy" translate="yes" xml:space="preserve">
+          <source>1 Timothy</source>
+          <target state="final">1 Timoteus</target>
+        </trans-unit>
+        <trans-unit id="Philemon" translate="yes" xml:space="preserve">
+          <source>Philemon</source>
+          <target state="final">Filemon</target>
+        </trans-unit>
+        <trans-unit id="Philippians" translate="yes" xml:space="preserve">
+          <source>Philippians</source>
+          <target state="final">Filipperne</target>
+        </trans-unit>
+        <trans-unit id="Proverbs" translate="yes" xml:space="preserve">
+          <source>Proverbs</source>
+          <target state="final">Ordspråkene</target>
+        </trans-unit>
+        <trans-unit id="Psalms" translate="yes" xml:space="preserve">
+          <source>Psalms</source>
+          <target state="final">Salmene</target>
+        </trans-unit>
+        <trans-unit id="Revelation" translate="yes" xml:space="preserve">
+          <source>Revelation</source>
+          <target state="final">Åpenbaringen</target>
+        </trans-unit>
+        <trans-unit id="Romans" translate="yes" xml:space="preserve">
+          <source>Romans</source>
+          <target state="final">Romerene</target>
+        </trans-unit>
+        <trans-unit id="Ruth" translate="yes" xml:space="preserve">
+          <source>Ruth</source>
+          <target state="final">Ruts</target>
+        </trans-unit>
+        <trans-unit id="Second" translate="yes" xml:space="preserve">
+          <source>Second</source>
+          <target state="final">Sekund</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to detect when the numeric part of a book is written as a word</note>
+        </trans-unit>
+        <trans-unit id="SongOfSolomon" translate="yes" xml:space="preserve">
+          <source>Song of Solomon</source>
+          <target state="final">Høysangen</target>
+        </trans-unit>
+        <trans-unit id="Third" translate="yes" xml:space="preserve">
+          <source>Third</source>
+          <target state="final">Tredje</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Used to detect when the numeric part of a book is written as a word</note>
+        </trans-unit>
+        <trans-unit id="ThreeJohn" translate="yes" xml:space="preserve">
+          <source>3 John</source>
+          <target state="final">3 Johannes</target>
+        </trans-unit>
+        <trans-unit id="Titus" translate="yes" xml:space="preserve">
+          <source>Titus</source>
+          <target state="final">Titus</target>
+        </trans-unit>
+        <trans-unit id="TwoChronicles" translate="yes" xml:space="preserve">
+          <source>2 Chronicles</source>
+          <target state="final">2 Krønikebok</target>
+        </trans-unit>
+        <trans-unit id="TwoCorinthians" translate="yes" xml:space="preserve">
+          <source>2 Corinthians</source>
+          <target state="final">2 Korinterene</target>
+        </trans-unit>
+        <trans-unit id="TwoJohn" translate="yes" xml:space="preserve">
+          <source>2 John</source>
+          <target state="final">2 Johannes</target>
+        </trans-unit>
+        <trans-unit id="TwoKings" translate="yes" xml:space="preserve">
+          <source>2 Kings</source>
+          <target state="final">2 Kongebok</target>
+        </trans-unit>
+        <trans-unit id="TwoPeter" translate="yes" xml:space="preserve">
+          <source>2 Peter</source>
+          <target state="final">2 Peter</target>
+        </trans-unit>
+        <trans-unit id="TwoSamuel" translate="yes" xml:space="preserve">
+          <source>2 Samuel</source>
+          <target state="final">2 Samuel</target>
+        </trans-unit>
+        <trans-unit id="TwoThessalonians" translate="yes" xml:space="preserve">
+          <source>2 Thessalonians</source>
+          <target state="final">2 Tessalonikerne</target>
+        </trans-unit>
+        <trans-unit id="TwoTimothy" translate="yes" xml:space="preserve">
+          <source>2 Timothy</source>
+          <target state="final">2 Timoteus</target>
+        </trans-unit>
+        <trans-unit id="Zechariah" translate="yes" xml:space="preserve">
+          <source>Zechariah</source>
+          <target state="final">Sakarja</target>
+        </trans-unit>
+        <trans-unit id="Zephaniah" translate="yes" xml:space="preserve">
+          <source>Zephaniah</source>
+          <target state="final">Sefanja</target>
+        </trans-unit>
+        <trans-unit id="Fifth" translate="yes" xml:space="preserve">
+          <source>Fifth</source>
+          <target state="new">Fifth</target>
+        </trans-unit>
+        <trans-unit id="Fourth" translate="yes" xml:space="preserve">
+          <source>Fourth</source>
+          <target state="new">Fourth</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="nb" original="BIBLEUTILITIES/RESOURCES/STANDARDABBREVIATIONS.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BIBLEUTILITIES/RESOURCES/STANDARDABBREVIATIONS.RESX" datatype="resx">
+        <trans-unit id="Acts" translate="yes" xml:space="preserve">
+          <source>Acts</source>
+          <target state="final">Apg.</target>
+        </trans-unit>
+        <trans-unit id="Amos" translate="yes" xml:space="preserve">
+          <source>Amos</source>
+          <target state="final">Amos</target>
+        </trans-unit>
+        <trans-unit id="Colossians" translate="yes" xml:space="preserve">
+          <source>Col.</source>
+          <target state="final">Kol.</target>
+        </trans-unit>
+        <trans-unit id="Daniel" translate="yes" xml:space="preserve">
+          <source>Dan.</source>
+          <target state="final">Dan.</target>
+        </trans-unit>
+        <trans-unit id="Deuteronomy" translate="yes" xml:space="preserve">
+          <source>Deut.</source>
+          <target state="final">5 Mos.</target>
+        </trans-unit>
+        <trans-unit id="Ecclesiastes" translate="yes" xml:space="preserve">
+          <source>Eccl.</source>
+          <target state="final">Fork.</target>
+        </trans-unit>
+        <trans-unit id="Ephesians" translate="yes" xml:space="preserve">
+          <source>Eph.</source>
+          <target state="final">Efe.</target>
+        </trans-unit>
+        <trans-unit id="Esther" translate="yes" xml:space="preserve">
+          <source>Est.</source>
+          <target state="final">Est.</target>
+        </trans-unit>
+        <trans-unit id="Exodus" translate="yes" xml:space="preserve">
+          <source>Ex.</source>
+          <target state="final">2 Mos.</target>
+        </trans-unit>
+        <trans-unit id="Ezekiel" translate="yes" xml:space="preserve">
+          <source>Ezek.</source>
+          <target state="final">Esek.</target>
+        </trans-unit>
+        <trans-unit id="Ezra" translate="yes" xml:space="preserve">
+          <source>Ezra</source>
+          <target state="final">Esra.</target>
+        </trans-unit>
+        <trans-unit id="Galatians" translate="yes" xml:space="preserve">
+          <source>Gal.</source>
+          <target state="final">Gal.</target>
+        </trans-unit>
+        <trans-unit id="Genesis" translate="yes" xml:space="preserve">
+          <source>Gen.</source>
+          <target state="final">1 Mos.</target>
+        </trans-unit>
+        <trans-unit id="Habakkuk" translate="yes" xml:space="preserve">
+          <source>Hab.</source>
+          <target state="final">Hab.</target>
+        </trans-unit>
+        <trans-unit id="Haggai" translate="yes" xml:space="preserve">
+          <source>Hag.</source>
+          <target state="final">Hag.</target>
+        </trans-unit>
+        <trans-unit id="Hebrews" translate="yes" xml:space="preserve">
+          <source>Heb.</source>
+          <target state="final">Heb.</target>
+        </trans-unit>
+        <trans-unit id="Hosea" translate="yes" xml:space="preserve">
+          <source>Hos.</source>
+          <target state="final">Hos.</target>
+        </trans-unit>
+        <trans-unit id="Isaiah" translate="yes" xml:space="preserve">
+          <source>Isa.</source>
+          <target state="final">Jes.</target>
+        </trans-unit>
+        <trans-unit id="James" translate="yes" xml:space="preserve">
+          <source>James</source>
+          <target state="final">Jakob.</target>
+        </trans-unit>
+        <trans-unit id="Jeremiah" translate="yes" xml:space="preserve">
+          <source>Jer.</source>
+          <target state="final">Jer.</target>
+        </trans-unit>
+        <trans-unit id="Job" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="final">Job</target>
+        </trans-unit>
+        <trans-unit id="Joel" translate="yes" xml:space="preserve">
+          <source>Joel</source>
+          <target state="final">Joel</target>
+        </trans-unit>
+        <trans-unit id="John" translate="yes" xml:space="preserve">
+          <source>John</source>
+          <target state="final">Joh.</target>
+        </trans-unit>
+        <trans-unit id="Jonah" translate="yes" xml:space="preserve">
+          <source>Jonah</source>
+          <target state="final">Jona</target>
+        </trans-unit>
+        <trans-unit id="Joshua" translate="yes" xml:space="preserve">
+          <source>Josh.</source>
+          <target state="final">Josv.</target>
+        </trans-unit>
+        <trans-unit id="Jude" translate="yes" xml:space="preserve">
+          <source>Jude</source>
+          <target state="final">Judas</target>
+        </trans-unit>
+        <trans-unit id="Judges" translate="yes" xml:space="preserve">
+          <source>Judg.</source>
+          <target state="final">Domr.</target>
+        </trans-unit>
+        <trans-unit id="Lamentations" translate="yes" xml:space="preserve">
+          <source>Lam.</source>
+          <target state="final">Klag.</target>
+        </trans-unit>
+        <trans-unit id="Leviticus" translate="yes" xml:space="preserve">
+          <source>Lev.</source>
+          <target state="final">3 Mos.</target>
+        </trans-unit>
+        <trans-unit id="Luke" translate="yes" xml:space="preserve">
+          <source>Luke</source>
+          <target state="final">Luke.</target>
+        </trans-unit>
+        <trans-unit id="Malachai" translate="yes" xml:space="preserve">
+          <source>Mal.</source>
+          <target state="final">Mal.</target>
+        </trans-unit>
+        <trans-unit id="Mark" translate="yes" xml:space="preserve">
+          <source>Mark</source>
+          <target state="final">Mark.</target>
+        </trans-unit>
+        <trans-unit id="Matthew" translate="yes" xml:space="preserve">
+          <source>Matt.</source>
+          <target state="final">Matt.</target>
+        </trans-unit>
+        <trans-unit id="Micah" translate="yes" xml:space="preserve">
+          <source>Mic.</source>
+          <target state="final">Mik.</target>
+        </trans-unit>
+        <trans-unit id="Nahum" translate="yes" xml:space="preserve">
+          <source>Nah.</source>
+          <target state="final">Nah.</target>
+        </trans-unit>
+        <trans-unit id="Nehemiah" translate="yes" xml:space="preserve">
+          <source>Neh.</source>
+          <target state="final">Neh.</target>
+        </trans-unit>
+        <trans-unit id="Numbers" translate="yes" xml:space="preserve">
+          <source>Num.</source>
+          <target state="final">4 Mos.</target>
+        </trans-unit>
+        <trans-unit id="Obadaiah" translate="yes" xml:space="preserve">
+          <source>Obad.</source>
+          <target state="final">Ob.</target>
+        </trans-unit>
+        <trans-unit id="OneChronicles" translate="yes" xml:space="preserve">
+          <source>1 Chron.</source>
+          <target state="final">1 Krøn.</target>
+        </trans-unit>
+        <trans-unit id="OneCorinthians" translate="yes" xml:space="preserve">
+          <source>1 Cor.</source>
+          <target state="final">1 Kor.</target>
+        </trans-unit>
+        <trans-unit id="OneJohn" translate="yes" xml:space="preserve">
+          <source>1 John</source>
+          <target state="final">1 Joh.</target>
+        </trans-unit>
+        <trans-unit id="OneKings" translate="yes" xml:space="preserve">
+          <source>1 Kings</source>
+          <target state="final">1 Konge.</target>
+        </trans-unit>
+        <trans-unit id="OnePeter" translate="yes" xml:space="preserve">
+          <source>1 Peter</source>
+          <target state="final">1 Peter.</target>
+        </trans-unit>
+        <trans-unit id="OneSamuel" translate="yes" xml:space="preserve">
+          <source>1 Sam.</source>
+          <target state="final">1 Sam.</target>
+        </trans-unit>
+        <trans-unit id="OneThessalonians" translate="yes" xml:space="preserve">
+          <source>1 Thes.</source>
+          <target state="final">1 Tess.</target>
+        </trans-unit>
+        <trans-unit id="OneTimothy" translate="yes" xml:space="preserve">
+          <source>1 Tim.</source>
+          <target state="final">1 Tim.</target>
+        </trans-unit>
+        <trans-unit id="Philemon" translate="yes" xml:space="preserve">
+          <source>Philem.</source>
+          <target state="final">Filem.</target>
+        </trans-unit>
+        <trans-unit id="Philippians" translate="yes" xml:space="preserve">
+          <source>Phil.</source>
+          <target state="final">Fil.</target>
+        </trans-unit>
+        <trans-unit id="Proverbs" translate="yes" xml:space="preserve">
+          <source>Prov.</source>
+          <target state="final">Ordsp.</target>
+        </trans-unit>
+        <trans-unit id="Psalms" translate="yes" xml:space="preserve">
+          <source>Ps.</source>
+          <target state="final">Sal.</target>
+        </trans-unit>
+        <trans-unit id="Revelation" translate="yes" xml:space="preserve">
+          <source>Rev.</source>
+          <target state="final">Åp.</target>
+        </trans-unit>
+        <trans-unit id="Romans" translate="yes" xml:space="preserve">
+          <source>Rom.</source>
+          <target state="final">Rom.</target>
+        </trans-unit>
+        <trans-unit id="Ruth" translate="yes" xml:space="preserve">
+          <source>Ruth</source>
+          <target state="final">Rut</target>
+        </trans-unit>
+        <trans-unit id="SongOfSolomon" translate="yes" xml:space="preserve">
+          <source>Song.</source>
+          <target state="final">Høys.</target>
+        </trans-unit>
+        <trans-unit id="ThreeJohn" translate="yes" xml:space="preserve">
+          <source>3 John</source>
+          <target state="final">3 Joh.</target>
+        </trans-unit>
+        <trans-unit id="Titus" translate="yes" xml:space="preserve">
+          <source>Titus</source>
+          <target state="final">Titus.</target>
+        </trans-unit>
+        <trans-unit id="TwoChronicles" translate="yes" xml:space="preserve">
+          <source>2 Chron.</source>
+          <target state="final">2 Krøn.</target>
+        </trans-unit>
+        <trans-unit id="TwoCorinthians" translate="yes" xml:space="preserve">
+          <source>2 Cor.</source>
+          <target state="final">2 Kor.</target>
+        </trans-unit>
+        <trans-unit id="TwoJohn" translate="yes" xml:space="preserve">
+          <source>2 John</source>
+          <target state="final">2 Joh.</target>
+        </trans-unit>
+        <trans-unit id="TwoKings" translate="yes" xml:space="preserve">
+          <source>2 Kings</source>
+          <target state="final">2 Konge.</target>
+        </trans-unit>
+        <trans-unit id="TwoPeter" translate="yes" xml:space="preserve">
+          <source>2 Peter</source>
+          <target state="final">2 Peter.</target>
+        </trans-unit>
+        <trans-unit id="TwoSamuel" translate="yes" xml:space="preserve">
+          <source>2 Sam.</source>
+          <target state="final">2 Sam.</target>
+        </trans-unit>
+        <trans-unit id="TwoThessalonians" translate="yes" xml:space="preserve">
+          <source>2 Thes.</source>
+          <target state="final">2 Tess.</target>
+        </trans-unit>
+        <trans-unit id="TwoTimothy" translate="yes" xml:space="preserve">
+          <source>2 Tim.</source>
+          <target state="final">2 Tim.</target>
+        </trans-unit>
+        <trans-unit id="Zechariah" translate="yes" xml:space="preserve">
+          <source>Zech.</source>
+          <target state="final">Sak.</target>
+        </trans-unit>
+        <trans-unit id="Zephaniah" translate="yes" xml:space="preserve">
+          <source>Zeph.</source>
+          <target state="final">Sef.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

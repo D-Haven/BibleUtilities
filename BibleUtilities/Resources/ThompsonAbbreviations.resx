@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acts" xml:space="preserve">
+    <value>Ac</value>
+  </data>
+  <data name="Amos" xml:space="preserve">
+    <value>Am</value>
+  </data>
+  <data name="Colossians" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="Daniel" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="Deuteronomy" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Ecclesiastes" xml:space="preserve">
+    <value>Ec</value>
+  </data>
+  <data name="Ephesians" xml:space="preserve">
+    <value>Ep</value>
+  </data>
+  <data name="Esther" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="Exodus" xml:space="preserve">
+    <value>Ex</value>
+  </data>
+  <data name="Ezekiel" xml:space="preserve">
+    <value>Ez</value>
+  </data>
+  <data name="Ezra" xml:space="preserve">
+    <value>Ezr</value>
+  </data>
+  <data name="Galatians" xml:space="preserve">
+    <value>Ga</value>
+  </data>
+  <data name="Genesis" xml:space="preserve">
+    <value>Ge</value>
+  </data>
+  <data name="Habakkuk" xml:space="preserve">
+    <value>Hab</value>
+  </data>
+  <data name="Haggai" xml:space="preserve">
+    <value>Hag</value>
+  </data>
+  <data name="Hebrews" xml:space="preserve">
+    <value>He</value>
+  </data>
+  <data name="Hosea" xml:space="preserve">
+    <value>Ho</value>
+  </data>
+  <data name="Isaiah" xml:space="preserve">
+    <value>Is</value>
+  </data>
+  <data name="James" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Jeremiah" xml:space="preserve">
+    <value>Je</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Jb</value>
+  </data>
+  <data name="Joel" xml:space="preserve">
+    <value>Joel</value>
+  </data>
+  <data name="John" xml:space="preserve">
+    <value>Jn</value>
+  </data>
+  <data name="Jonah" xml:space="preserve">
+    <value>Jona</value>
+  </data>
+  <data name="Joshua" xml:space="preserve">
+    <value>Jos</value>
+  </data>
+  <data name="Jude" xml:space="preserve">
+    <value>Jude</value>
+  </data>
+  <data name="Judges" xml:space="preserve">
+    <value>Jud</value>
+  </data>
+  <data name="Lamentations" xml:space="preserve">
+    <value>Lam</value>
+  </data>
+  <data name="Leviticus" xml:space="preserve">
+    <value>Le</value>
+  </data>
+  <data name="Luke" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="Malachai" xml:space="preserve">
+    <value>Mal</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>Mk</value>
+  </data>
+  <data name="Matthew" xml:space="preserve">
+    <value>Mt</value>
+  </data>
+  <data name="Micah" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="Nahum" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="Nehemiah" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Numbers" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="Obadaiah" xml:space="preserve">
+    <value>Obad</value>
+  </data>
+  <data name="OneChronicles" xml:space="preserve">
+    <value>1 Chr</value>
+  </data>
+  <data name="OneCorinthians" xml:space="preserve">
+    <value>1 Co</value>
+  </data>
+  <data name="OneJohn" xml:space="preserve">
+    <value>1 Jn</value>
+  </data>
+  <data name="OneKings" xml:space="preserve">
+    <value>1 K</value>
+  </data>
+  <data name="OnePeter" xml:space="preserve">
+    <value>1 Pe</value>
+  </data>
+  <data name="OneSamuel" xml:space="preserve">
+    <value>1 S</value>
+  </data>
+  <data name="OneThessalonians" xml:space="preserve">
+    <value>1 Th</value>
+  </data>
+  <data name="OneTimothy" xml:space="preserve">
+    <value>1 Ti</value>
+  </data>
+  <data name="Philemon" xml:space="preserve">
+    <value>Phm</value>
+  </data>
+  <data name="Philippians" xml:space="preserve">
+    <value>Ph</value>
+  </data>
+  <data name="Proverbs" xml:space="preserve">
+    <value>Pr</value>
+  </data>
+  <data name="Psalms" xml:space="preserve">
+    <value>Ps</value>
+  </data>
+  <data name="Revelation" xml:space="preserve">
+    <value>Re</value>
+  </data>
+  <data name="Romans" xml:space="preserve">
+    <value>Ro</value>
+  </data>
+  <data name="Ruth" xml:space="preserve">
+    <value>Ru</value>
+  </data>
+  <data name="SongOfSolomon" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="ThreeJohn" xml:space="preserve">
+    <value>3 Jn</value>
+  </data>
+  <data name="Titus" xml:space="preserve">
+    <value>Tit</value>
+  </data>
+  <data name="TwoChronicles" xml:space="preserve">
+    <value>2 Chr</value>
+  </data>
+  <data name="TwoCorinthians" xml:space="preserve">
+    <value>2 Co</value>
+  </data>
+  <data name="TwoJohn" xml:space="preserve">
+    <value>2 Jn</value>
+  </data>
+  <data name="TwoKings" xml:space="preserve">
+    <value>2 K</value>
+  </data>
+  <data name="TwoPeter" xml:space="preserve">
+    <value>2 Pe</value>
+  </data>
+  <data name="TwoSamuel" xml:space="preserve">
+    <value>2 S</value>
+  </data>
+  <data name="TwoThessalonians" xml:space="preserve">
+    <value>2 Th</value>
+  </data>
+  <data name="TwoTimothy" xml:space="preserve">
+    <value>2 Ti</value>
+  </data>
+  <data name="Zechariah" xml:space="preserve">
+    <value>Zec</value>
+  </data>
+  <data name="Zephaniah" xml:space="preserve">
+    <value>Zep</value>
+  </data>
+</root>

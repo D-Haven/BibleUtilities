@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acts" xml:space="preserve">
+    <value>Apg</value>
+  </data>
+  <data name="Amos" xml:space="preserve">
+    <value>Am</value>
+  </data>
+  <data name="Colossians" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="Daniel" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="Deuteronomy" xml:space="preserve">
+    <value>5 Mo</value>
+  </data>
+  <data name="Ecclesiastes" xml:space="preserve">
+    <value>Fk</value>
+  </data>
+  <data name="Ephesians" xml:space="preserve">
+    <value>Ef</value>
+  </data>
+  <data name="Esther" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="Exodus" xml:space="preserve">
+    <value>2 Mo</value>
+  </data>
+  <data name="Ezekiel" xml:space="preserve">
+    <value>Es</value>
+  </data>
+  <data name="Ezra" xml:space="preserve">
+    <value>Esr</value>
+  </data>
+  <data name="Galatians" xml:space="preserve">
+    <value>Ga</value>
+  </data>
+  <data name="Genesis" xml:space="preserve">
+    <value>1 Mo</value>
+  </data>
+  <data name="Habakkuk" xml:space="preserve">
+    <value>Hab</value>
+  </data>
+  <data name="Haggai" xml:space="preserve">
+    <value>Hag</value>
+  </data>
+  <data name="Hebrews" xml:space="preserve">
+    <value>He</value>
+  </data>
+  <data name="Hosea" xml:space="preserve">
+    <value>Ho</value>
+  </data>
+  <data name="Isaiah" xml:space="preserve">
+    <value>Js</value>
+  </data>
+  <data name="James" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Jeremiah" xml:space="preserve">
+    <value>Je</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Jb</value>
+  </data>
+  <data name="Joel" xml:space="preserve">
+    <value>Joel</value>
+  </data>
+  <data name="John" xml:space="preserve">
+    <value>Jn</value>
+  </data>
+  <data name="Jonah" xml:space="preserve">
+    <value>Jona</value>
+  </data>
+  <data name="Joshua" xml:space="preserve">
+    <value>Jos</value>
+  </data>
+  <data name="Jude" xml:space="preserve">
+    <value>Judas</value>
+  </data>
+  <data name="Judges" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="Lamentations" xml:space="preserve">
+    <value>Kla</value>
+  </data>
+  <data name="Leviticus" xml:space="preserve">
+    <value>3 Mo</value>
+  </data>
+  <data name="Luke" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="Malachai" xml:space="preserve">
+    <value>Mal</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>Mk</value>
+  </data>
+  <data name="Matthew" xml:space="preserve">
+    <value>Mt</value>
+  </data>
+  <data name="Micah" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="Nahum" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="Nehemiah" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Numbers" xml:space="preserve">
+    <value>4 Mo</value>
+  </data>
+  <data name="Obadaiah" xml:space="preserve">
+    <value>Ob</value>
+  </data>
+  <data name="OneChronicles" xml:space="preserve">
+    <value>1 Krø</value>
+  </data>
+  <data name="OneCorinthians" xml:space="preserve">
+    <value>1 Kor</value>
+  </data>
+  <data name="OneJohn" xml:space="preserve">
+    <value>1 Jn</value>
+  </data>
+  <data name="OneKings" xml:space="preserve">
+    <value>1 K</value>
+  </data>
+  <data name="OnePeter" xml:space="preserve">
+    <value>1 Pe</value>
+  </data>
+  <data name="OneSamuel" xml:space="preserve">
+    <value>1 S</value>
+  </data>
+  <data name="OneThessalonians" xml:space="preserve">
+    <value>1 Te</value>
+  </data>
+  <data name="OneTimothy" xml:space="preserve">
+    <value>1 Ti</value>
+  </data>
+  <data name="Philemon" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Philippians" xml:space="preserve">
+    <value>Fi</value>
+  </data>
+  <data name="Proverbs" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="Psalms" xml:space="preserve">
+    <value>Sl</value>
+  </data>
+  <data name="Revelation" xml:space="preserve">
+    <value>Åp</value>
+  </data>
+  <data name="Romans" xml:space="preserve">
+    <value>Ro</value>
+  </data>
+  <data name="Ruth" xml:space="preserve">
+    <value>Ru.</value>
+  </data>
+  <data name="SongOfSolomon" xml:space="preserve">
+    <value>Høys</value>
+  </data>
+  <data name="ThreeJohn" xml:space="preserve">
+    <value>3 Jn</value>
+  </data>
+  <data name="Titus" xml:space="preserve">
+    <value>Tit</value>
+  </data>
+  <data name="TwoChronicles" xml:space="preserve">
+    <value>2 Krø</value>
+  </data>
+  <data name="TwoCorinthians" xml:space="preserve">
+    <value>2 Kor</value>
+  </data>
+  <data name="TwoJohn" xml:space="preserve">
+    <value>2 Jn</value>
+  </data>
+  <data name="TwoKings" xml:space="preserve">
+    <value>2 K</value>
+  </data>
+  <data name="TwoPeter" xml:space="preserve">
+    <value>2 Pe</value>
+  </data>
+  <data name="TwoSamuel" xml:space="preserve">
+    <value>2 S</value>
+  </data>
+  <data name="TwoThessalonians" xml:space="preserve">
+    <value>2 Te</value>
+  </data>
+  <data name="TwoTimothy" xml:space="preserve">
+    <value>2 Ti</value>
+  </data>
+  <data name="Zechariah" xml:space="preserve">
+    <value>Zec</value>
+  </data>
+  <data name="Zephaniah" xml:space="preserve">
+    <value>Sef</value>
+  </data>
+</root>

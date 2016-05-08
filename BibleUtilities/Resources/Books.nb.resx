@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acts" xml:space="preserve">
+    <value>Apostelgjerningene</value>
+  </data>
+  <data name="Amos" xml:space="preserve">
+    <value>Amos</value>
+  </data>
+  <data name="Colossians" xml:space="preserve">
+    <value>Kolosserne</value>
+  </data>
+  <data name="Daniel" xml:space="preserve">
+    <value>Daniel</value>
+  </data>
+  <data name="Deuteronomy" xml:space="preserve">
+    <value>5 Mosebok</value>
+  </data>
+  <data name="Ecclesiastes" xml:space="preserve">
+    <value>Forkynneren</value>
+  </data>
+  <data name="Ephesians" xml:space="preserve">
+    <value>Efeserene</value>
+  </data>
+  <data name="Esther" xml:space="preserve">
+    <value>Ester</value>
+  </data>
+  <data name="Exodus" xml:space="preserve">
+    <value>2 Mosebok</value>
+  </data>
+  <data name="Ezekiel" xml:space="preserve">
+    <value>Esekiel</value>
+  </data>
+  <data name="Ezra" xml:space="preserve">
+    <value>Esra</value>
+  </data>
+  <data name="Fifth" xml:space="preserve">
+    <value>Femte</value>
+    <comment>Used to detect when the numeric part of a book is written as a word</comment>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Først</value>
+    <comment>Used to detect when the numeric part of a book is written as a word</comment>
+  </data>
+  <data name="Fourth" xml:space="preserve">
+    <value>Fjerde</value>
+    <comment>Used to detect when the numeric part of a book is written as a word</comment>
+  </data>
+  <data name="Galatians" xml:space="preserve">
+    <value>Galaterne</value>
+  </data>
+  <data name="Genesis" xml:space="preserve">
+    <value>1 Mosebok</value>
+  </data>
+  <data name="Habakkuk" xml:space="preserve">
+    <value>Habakkuk</value>
+  </data>
+  <data name="Haggai" xml:space="preserve">
+    <value>Haggai</value>
+  </data>
+  <data name="Hebrews" xml:space="preserve">
+    <value>Hebreerne</value>
+  </data>
+  <data name="Hosea" xml:space="preserve">
+    <value>Hosea</value>
+  </data>
+  <data name="Isaiah" xml:space="preserve">
+    <value>Jesaia</value>
+  </data>
+  <data name="James" xml:space="preserve">
+    <value>Jakob</value>
+  </data>
+  <data name="Jeremiah" xml:space="preserve">
+    <value>Jeremia</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="Joel" xml:space="preserve">
+    <value>Joel</value>
+  </data>
+  <data name="John" xml:space="preserve">
+    <value>Johannes</value>
+  </data>
+  <data name="Jonah" xml:space="preserve">
+    <value>Jona</value>
+  </data>
+  <data name="Joshua" xml:space="preserve">
+    <value>Josva</value>
+  </data>
+  <data name="Jude" xml:space="preserve">
+    <value>Judas</value>
+  </data>
+  <data name="Judges" xml:space="preserve">
+    <value>Dommerne</value>
+  </data>
+  <data name="Lamentations" xml:space="preserve">
+    <value>Klagesangene</value>
+  </data>
+  <data name="Leviticus" xml:space="preserve">
+    <value>3 Mosebok</value>
+  </data>
+  <data name="Luke" xml:space="preserve">
+    <value>Lukas</value>
+  </data>
+  <data name="Malachai" xml:space="preserve">
+    <value>Malaki</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>Markus</value>
+  </data>
+  <data name="Matthew" xml:space="preserve">
+    <value>Matteus</value>
+  </data>
+  <data name="Micah" xml:space="preserve">
+    <value>Mika</value>
+  </data>
+  <data name="Nahum" xml:space="preserve">
+    <value>Nahum</value>
+  </data>
+  <data name="Nehemiah" xml:space="preserve">
+    <value>Nehemja</value>
+  </data>
+  <data name="Numbers" xml:space="preserve">
+    <value>4 Mosebok</value>
+  </data>
+  <data name="Obadaiah" xml:space="preserve">
+    <value>Obdaja</value>
+  </data>
+  <data name="OneChronicles" xml:space="preserve">
+    <value>1 Krønikebok</value>
+  </data>
+  <data name="OneCorinthians" xml:space="preserve">
+    <value>1 Korinterene</value>
+  </data>
+  <data name="OneJohn" xml:space="preserve">
+    <value>1 Johannes</value>
+  </data>
+  <data name="OneKings" xml:space="preserve">
+    <value>1 Kongebok</value>
+  </data>
+  <data name="OnePeter" xml:space="preserve">
+    <value>1 Peter</value>
+  </data>
+  <data name="OneSamuel" xml:space="preserve">
+    <value>1 Samuel</value>
+  </data>
+  <data name="OneThessalonians" xml:space="preserve">
+    <value>1 Tessalonikerne</value>
+  </data>
+  <data name="OneTimothy" xml:space="preserve">
+    <value>1 Timoteus</value>
+  </data>
+  <data name="Philemon" xml:space="preserve">
+    <value>Filemon</value>
+  </data>
+  <data name="Philippians" xml:space="preserve">
+    <value>Filipperne</value>
+  </data>
+  <data name="Proverbs" xml:space="preserve">
+    <value>Ordspråkene</value>
+  </data>
+  <data name="Psalms" xml:space="preserve">
+    <value>Salmene</value>
+  </data>
+  <data name="Revelation" xml:space="preserve">
+    <value>Åpenbaringen</value>
+  </data>
+  <data name="Romans" xml:space="preserve">
+    <value>Romerene</value>
+  </data>
+  <data name="Ruth" xml:space="preserve">
+    <value>Ruts</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Sekund</value>
+    <comment>Used to detect when the numeric part of a book is written as a word</comment>
+  </data>
+  <data name="SongOfSolomon" xml:space="preserve">
+    <value>Høysangen</value>
+  </data>
+  <data name="Third" xml:space="preserve">
+    <value>Tredje</value>
+    <comment>Used to detect when the numeric part of a book is written as a word</comment>
+  </data>
+  <data name="ThreeJohn" xml:space="preserve">
+    <value>3 Johannes</value>
+  </data>
+  <data name="Titus" xml:space="preserve">
+    <value>Titus</value>
+  </data>
+  <data name="TwoChronicles" xml:space="preserve">
+    <value>2 Krønikebok</value>
+  </data>
+  <data name="TwoCorinthians" xml:space="preserve">
+    <value>2 Korinterene</value>
+  </data>
+  <data name="TwoJohn" xml:space="preserve">
+    <value>2 Johannes</value>
+  </data>
+  <data name="TwoKings" xml:space="preserve">
+    <value>2 Kongebok</value>
+  </data>
+  <data name="TwoPeter" xml:space="preserve">
+    <value>2 Peter</value>
+  </data>
+  <data name="TwoSamuel" xml:space="preserve">
+    <value>2 Samuel</value>
+  </data>
+  <data name="TwoThessalonians" xml:space="preserve">
+    <value>2 Tessalonikerne</value>
+  </data>
+  <data name="TwoTimothy" xml:space="preserve">
+    <value>2 Timoteus</value>
+  </data>
+  <data name="Zechariah" xml:space="preserve">
+    <value>Sakarja</value>
+  </data>
+  <data name="Zephaniah" xml:space="preserve">
+    <value>Sefanja</value>
+  </data>
+</root>
