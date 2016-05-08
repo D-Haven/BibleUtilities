@@ -191,6 +191,14 @@ namespace DHaven.BibleUtilities
                 case "3":
                     parts[0] = "III";
                     break;
+
+                case "4":
+                    parts[0] = "IV";
+                    break;
+
+                case "5":
+                    parts[0] = "V";
+                    break;
             }
 
             return string.Join(" ", parts);
@@ -303,6 +311,8 @@ namespace DHaven.BibleUtilities
             string first = Resources.Books.ResourceManager.GetString("First", culture).ToLower();
             string second = Resources.Books.ResourceManager.GetString("Second", culture).ToLower();
             string third = Resources.Books.ResourceManager.GetString("Third", culture).ToLower();
+            string fourth = Resources.Books.ResourceManager.GetString("Fourth", culture).ToLower();
+            string fifth = Resources.Books.ResourceManager.GetString("Fifth", culture).ToLower();
 
             // If the first part is a roman numeral, or spelled ordinal, convert it to arabic
             var number = parts[0].ToLower();
@@ -320,6 +330,14 @@ namespace DHaven.BibleUtilities
                     parts[0] = "3";
                     break;
 
+                case "iv":
+                    parts[0] = "4";
+                    break;
+
+                case "v":
+                    parts[0] = "5";
+                    break;
+
                 default:
                     if(number == first)
                     {
@@ -329,9 +347,17 @@ namespace DHaven.BibleUtilities
                     {
                         parts[0] = "2";
                     }
-                    else if(number == third)
+                    else if (number == third)
                     {
                         parts[0] = "3";
+                    }
+                    else if (number == fourth)
+                    {
+                        parts[0] = "4";
+                    }
+                    else if (number == fifth)
+                    {
+                        parts[0] = "5";
                     }
                     break;
             }
