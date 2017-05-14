@@ -1,4 +1,5 @@
 ﻿#region Copyright 2016 D-Haven.org
+
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -11,6 +12,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
 #endregion
 
 using System;
@@ -21,12 +23,12 @@ namespace DHaven.BibleUtilities
 {
     public class Book : IFormattable, IComparable<Book>, IEquatable<Book>
     {
-        private static int numCreated = 0;
-        private int order;
-        private string bookResourceName;
+        private static int numCreated;
+        private readonly string bookResourceName;
+        private readonly int order;
 
         /// <summary>
-        /// Create the book internally.
+        ///     Create the book internally.
         /// </summary>
         /// <param name="book">the resource name for the book</param>
         /// <param name="chapters">the number of chapters in that book</param>
@@ -41,159 +43,98 @@ namespace DHaven.BibleUtilities
         }
 
         /// <summary>
-        /// The current culture for this book.  Controls how it retrieves the resources.
+        ///     The current culture for this book.  Controls how it retrieves the resources.
         /// </summary>
         public CultureInfo Culture { get; set; }
 
         /// <summary>
-        /// The unabreviated name of the book.
+        ///     The unabreviated name of the book.
         /// </summary>
-        public string Name { get { return Resources.Books.ResourceManager.GetString(bookResourceName, Culture); } }
+        public string Name => Resources.Books.GetString(bookResourceName, Culture);
 
         /// <summary>
-        /// Standard abbreviations as defined in "The Christian Writer's
-        /// Manual of Style", 2004 edition (ISBN: 9780310487715).
+        ///     Standard abbreviations as defined in "The Christian Writer's
+        ///     Manual of Style", 2004 edition (ISBN: 9780310487715).
         /// </summary>
-        public string StandardAbreviation { get { return Resources.StandardAbbreviations.ResourceManager.GetString(bookResourceName, Culture); } }
+        public string StandardAbreviation => Resources.StandardAbbreviations.GetString(bookResourceName, Culture);
 
         /// <summary>
-        /// Thompson Chain references, pulled from the 5th edition.
+        ///     Thompson Chain references, pulled from the 5th edition.
         /// </summary>
-        public string ThompsonAbreviation { get { return Resources.ThompsonAbbreviations.ResourceManager.GetString(bookResourceName, Culture); } }
+        public string ThompsonAbreviation => Resources.ThompsonAbbreviations.GetString(bookResourceName, Culture);
 
-        public string CommonMistake { get { return Resources.CommonMistakes.ResourceManager.GetString(bookResourceName, Culture); } }
+        public string CommonMistake => Resources.CommonMistakes.GetString(bookResourceName, Culture);
 
         /// <summary>
-        /// The number of chapters in the book.
+        ///     The number of chapters in the book.
         /// </summary>
-        public int ChapterCount { get; private set; }
+        public int ChapterCount { get; }
 
-        public override bool Equals(object obj)
+        /// <summary>
+        ///     Provides a mechanism to sort books by the order in the Bible.
+        ///     Relies on the fact that all the books used in the system are
+        ///     defined statically.
+        /// </summary>
+        /// <param name="other">the other book to compare</param>
+        /// <returns>0 if equal or greater or less than depending on order</returns>
+        public int CompareTo(Book other)
         {
-            return Equals(obj as Book);
+            return order.CompareTo(other.order);
         }
 
         public bool Equals(Book other)
         {
             if (other != null)
-            {
                 return bookResourceName == other.bookResourceName && ChapterCount == other.ChapterCount;
-            }
 
             return false;
         }
 
         /// <summary>
-        /// Test for equality
-        /// </summary>
-        /// <param name="book1">the left hand book</param>
-        /// <param name="book2">the right hand book</param>
-        /// <returns>true if they are equal</returns>
-        public static bool operator ==(Book book1, Book book2)
-        { 
-            // If both are null, or both are same instance, return true.
-            if (ReferenceEquals(book1, book2))
-            {
-                return true;
-            }
-
-            // If one is null, but not both, return false.
-            if (((object)book1 == null) || ((object)book2 == null))
-            {
-                return false;
-            }
-
-            return book1.Equals(book2);
-        }
-
-        /// <summary>
-        /// Test for inequality.
-        /// </summary>
-        /// <param name="book1">the left hand book</param>
-        /// <param name="book2">the right hand book</param>
-        /// <returns>true if they are not equal</returns>
-        public static bool operator !=(Book book1, Book book2)
-        {
-            // If both are null, or both are same instance, return false.
-            if (ReferenceEquals(book1, book2))
-            {
-                return false;
-            }
-
-            // If one is null, but not both, return true.
-            if (((object)book1 == null) || ((object)book2 == null))
-            {
-                return true;
-            }
-
-            return !book1.Equals(book2);
-        }
-
-        public override int GetHashCode()
-        {
-            unchecked // Overflow is fine, just wrap
-            {
-                int hash = 17;
-
-                if (bookResourceName != null)
-                {
-                    hash = hash * 23 + bookResourceName.GetHashCode();
-                }
-
-                hash = hash * 23 + ChapterCount.GetHashCode();
-
-                return hash;
-            }
-        }
-
-        /// <summary>
-        /// Display this book as a string, uses the full name format.
-        /// </summary>
-        /// <returns>the formatted book</returns>
-        public override string ToString()
-        {
-            return ToString("N", Culture);
-        }
-
-        /// <summary>
-        /// Format the string with the current culture.
-        /// <see cref="ToString(string,IFormatProvider)"/>
-        /// </summary>
-        /// <param name="format">the format spec</param>
-        /// <returns>the formatted book</returns>
-        public string ToString(string format)
-        {
-            return ToString(format, Culture);
-        }
-
-        /// <summary>
-        /// Format the book part of a reference with one of the formats.  The default format is "N".
-        /// <list type="table">
-        /// <listheader>
-        ///   <term>Format</term>
-        ///   <description>Description</description>
-        /// </listheader>
-        /// <item>
-        ///   <term>T</term>
-        ///   <description>Use the Thompson Chain Reference format.  <example>1 Chr</example></description>
-        /// </item>
-        /// <item>
-        ///   <term>S</term>
-        ///   <description>Use the Standard Abbreviation format as defined in "The Christian Writer's Manual of Style" (2004).  <example>1 Chron.</example></description>
-        /// </item>
-        /// <item>
-        ///   <term>s</term>
-        ///   <description>Use the Standard Abbreviation format as defined in "The Christian Writer's Manual of Style" (2004), but with Roman numerals.  <example>I Chron.</example></description>
-        /// </item>
-        /// <item>
-        ///   <terms>N</terms>
-        ///   <description>Use the full book name.  <example>2 Chronicles</example></description>
-        /// </item>
-        /// <item>
-        ///   <terms>n</terms>
-        ///   <description>use the full book name, but with Roman numerals.  <example>II Chronicles</example></description>
-        /// </item>
-        /// </list>
+        ///     Format the book part of a reference with one of the formats.  The default format is "N".
+        ///     <list type="table">
+        ///         <listheader>
+        ///             <term>Format</term>
+        ///             <description>Description</description>
+        ///         </listheader>
+        ///         <item>
+        ///             <term>T</term>
+        ///             <description>
+        ///                 Use the Thompson Chain Reference format.
+        ///                 <example>1 Chr</example>
+        ///             </description>
+        ///         </item>
+        ///         <item>
+        ///             <term>S</term>
+        ///             <description>
+        ///                 Use the Standard Abbreviation format as defined in "The Christian Writer's Manual of Style"
+        ///                 (2004).
+        ///                 <example>1 Chron.</example>
+        ///             </description>
+        ///         </item>
+        ///         <item>
+        ///             <term>s</term>
+        ///             <description>
+        ///                 Use the Standard Abbreviation format as defined in "The Christian Writer's Manual of Style"
+        ///                 (2004), but with Roman numerals.
+        ///                 <example>I Chron.</example>
+        ///             </description>
+        ///         </item>
+        ///         <item>
+        ///             <terms>N</terms>
+        ///             <description>
+        ///                 Use the full book name.
+        ///                 <example>2 Chronicles</example>
+        ///             </description>
+        ///         </item>
+        ///         <item>
+        ///             <terms>n</terms>
+        ///             <description>
+        ///                 use the full book name, but with Roman numerals.
+        ///                 <example>II Chronicles</example>
+        ///             </description>
+        ///         </item>
+        ///     </list>
         /// </summary>
         /// <param name="format">the format spec</param>
         /// <param name="formatProvider">the culture specific formatter (unused)</param>
@@ -224,15 +165,93 @@ namespace DHaven.BibleUtilities
             throw new FormatException(string.Format("The {0} format string is not supported.", format));
         }
 
+        public override bool Equals(object obj)
+        {
+            return Equals(obj as Book);
+        }
+
         /// <summary>
-        /// Format the number part of the books that have more than one part as
-        /// a Roman numeral rather than the Arabic numeral
+        ///     Test for equality
+        /// </summary>
+        /// <param name="book1">the left hand book</param>
+        /// <param name="book2">the right hand book</param>
+        /// <returns>true if they are equal</returns>
+        public static bool operator ==(Book book1, Book book2)
+        {
+            // If both are null, or both are same instance, return true.
+            if (ReferenceEquals(book1, book2))
+                return true;
+
+            // If one is null, but not both, return false.
+            if ((object) book1 == null || (object) book2 == null)
+                return false;
+
+            return book1.Equals(book2);
+        }
+
+        /// <summary>
+        ///     Test for inequality.
+        /// </summary>
+        /// <param name="book1">the left hand book</param>
+        /// <param name="book2">the right hand book</param>
+        /// <returns>true if they are not equal</returns>
+        public static bool operator !=(Book book1, Book book2)
+        {
+            // If both are null, or both are same instance, return false.
+            if (ReferenceEquals(book1, book2))
+                return false;
+
+            // If one is null, but not both, return true.
+            if ((object) book1 == null || (object) book2 == null)
+                return true;
+
+            return !book1.Equals(book2);
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked // Overflow is fine, just wrap
+            {
+                var hash = 17;
+
+                if (bookResourceName != null)
+                    hash = hash * 23 + bookResourceName.GetHashCode();
+
+                hash = hash * 23 + ChapterCount.GetHashCode();
+
+                return hash;
+            }
+        }
+
+        /// <summary>
+        ///     Display this book as a string, uses the full name format.
+        /// </summary>
+        /// <returns>the formatted book</returns>
+        public override string ToString()
+        {
+            return ToString("N", Culture);
+        }
+
+        /// <summary>
+        ///     Format the string with the current culture.
+        ///     <see cref="ToString(string,IFormatProvider)" />
+        /// </summary>
+        /// <param name="format">the format spec</param>
+        /// <returns>the formatted book</returns>
+        public string ToString(string format)
+        {
+            return ToString(format, Culture);
+        }
+
+        /// <summary>
+        ///     Format the number part of the books that have more than one part as
+        ///     a Roman numeral rather than the Arabic numeral
         /// </summary>
         /// <param name="book">the book to reformat</param>
         /// <returns></returns>
         private string ToRomanNumeral(string book)
         {
-            string[] parts = book.Split(' ');
+            var parts = book.Split(' ');
 
             // We only have to convert the first part of the book to a roman numeral
             // And the highest we go is 3 (3 Jn).
@@ -263,19 +282,7 @@ namespace DHaven.BibleUtilities
         }
 
         /// <summary>
-        /// Provides a mechanism to sort books by the order in the Bible.
-        /// Relies on the fact that all the books used in the system are
-        /// defined statically.
-        /// </summary>
-        /// <param name="other">the other book to compare</param>
-        /// <returns>0 if equal or greater or less than depending on order</returns>
-        public int CompareTo(Book other)
-        {
-            return order.CompareTo(other.order);
-        }
-
-        /// <summary>
-        /// Parses the string and returns a book instance if it matches.
+        ///     Parses the string and returns a book instance if it matches.
         /// </summary>
         /// <exception cref="FormatException">If the book format could not be recognized</exception>
         /// <param name="inString">the string to parse</param>
@@ -286,7 +293,7 @@ namespace DHaven.BibleUtilities
         }
 
         /// <summary>
-        /// Parses the string and returns a book instance if it matches.
+        ///     Parses the string and returns a book instance if it matches.
         /// </summary>
         /// <exception cref="FormatException">If the book format could not be recognized</exception>
         /// <param name="inString">the string to parse</param>
@@ -296,16 +303,14 @@ namespace DHaven.BibleUtilities
         {
             Book book;
             if (TryParse(inString, culture, out book))
-            {
                 return book;
-            }
 
             throw new FormatException(string.Format("Could not recognize the book {0}", inString));
         }
 
         /// <summary>
-        /// Tries to parse the string into a Book.  If it can't it will return false instead
-        /// of throwing an exception.
+        ///     Tries to parse the string into a Book.  If it can't it will return false instead
+        ///     of throwing an exception.
         /// </summary>
         /// <param name="inString">The string to parse</param>
         /// <param name="book">the book that was found (or null)</param>
@@ -316,47 +321,42 @@ namespace DHaven.BibleUtilities
         }
 
         /// <summary>
-        /// Tries to parse the string into a Book.  If it can't it will return false instead
-        /// of throwing an exception.
+        ///     Tries to parse the string into a Book.  If it can't it will return false instead
+        ///     of throwing an exception.
         /// </summary>
         /// <param name="inString">The string to parse</param>
+        /// <param name="culture">The culture to return results for</param>
         /// <param name="book">the book that was found (or null)</param>
         /// <returns>true if found, false if not</returns>
         public static bool TryParse(string inString, CultureInfo culture, out Book book)
         {
-            string potentialBook = StandardizeBookOrdinals(inString, culture);
+            var potentialBook = StandardizeBookOrdinals(inString, culture);
 
-            Bible bible = new Bible(culture);
+            var bible = new Bible(culture);
 
             // Find the first book where the input string now matches one of the recognized formats.
             book = bible.AllBooks.FirstOrDefault(
                 b => b.ThompsonAbreviation.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase)
-                    || b.StandardAbreviation.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase)
-                    || b.Name.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase)
-                    || b.CommonMistake.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase));
+                     || b.StandardAbreviation.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase)
+                     || b.Name.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase)
+                     || b.CommonMistake.Equals(potentialBook, StringComparison.CurrentCultureIgnoreCase));
 
             if (book != null)
-            {
                 return true;
-            }
 
             // If we didn't find it, check to see if we just missed it because the abreviation
             // didn't have a period
-            book = bible.AllBooks.FirstOrDefault((b) =>
+            book = bible.AllBooks.FirstOrDefault(b =>
             {
-                string stdAbrev = b.StandardAbreviation;
+                var stdAbrev = b.StandardAbreviation;
                 if (stdAbrev.EndsWith("."))
-                {
                     stdAbrev = stdAbrev.Substring(0, stdAbrev.Length - 1);
-                }
 
                 return potentialBook == stdAbrev;
             });
 
             if (book != null)
-            {
                 return true;
-            }
 
             return book != null;
         }
@@ -364,13 +364,13 @@ namespace DHaven.BibleUtilities
         private static string StandardizeBookOrdinals(string str, CultureInfo culture)
         {
             // Break up on all remaining white space
-            string[] parts = (str ?? "").Trim().Split(' ', '\r', '\n', '\t');
+            var parts = (str ?? "").Trim().Split(' ', '\r', '\n', '\t');
 
-            string first = Resources.Books.ResourceManager.GetString("First", culture).ToLower();
-            string second = Resources.Books.ResourceManager.GetString("Second", culture).ToLower();
-            string third = Resources.Books.ResourceManager.GetString("Third", culture).ToLower();
-            string fourth = Resources.Books.ResourceManager.GetString("Fourth", culture).ToLower();
-            string fifth = Resources.Books.ResourceManager.GetString("Fifth", culture).ToLower();
+            var first = Resources.Books.GetString("First", culture).ToLower();
+            var second = Resources.Books.GetString("Second", culture).ToLower();
+            var third = Resources.Books.GetString("Third", culture).ToLower();
+            var fourth = Resources.Books.GetString("Fourth", culture).ToLower();
+            var fifth = Resources.Books.GetString("Fifth", culture).ToLower();
 
             // If the first part is a roman numeral, or spelled ordinal, convert it to arabic
             var number = parts[0].ToLower();
@@ -397,26 +397,16 @@ namespace DHaven.BibleUtilities
                     break;
 
                 default:
-                    if(number == first)
-                    {
+                    if (number == first)
                         parts[0] = "1";
-                    }
-                    else if(number == second)
-                    {
+                    else if (number == second)
                         parts[0] = "2";
-                    }
                     else if (number == third)
-                    {
                         parts[0] = "3";
-                    }
                     else if (number == fourth)
-                    {
                         parts[0] = "4";
-                    }
                     else if (number == fifth)
-                    {
                         parts[0] = "5";
-                    }
                     break;
             }
 
