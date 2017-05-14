@@ -1,141 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E48BEFC-88FC-47F7-86B0-CF7D9DA109D1}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Berin Loritsch</Authors>
+    <Company>DHaven.org</Company>
+    <Description>A set of utilities to make it easy to find all Bible references in plain text.  The parser can recognize abbreviations and a number of common spelling mistakes, and even those can be translated.  It is designed around the Protestant cannon.</Description>
+    <Copyright>Copyright 2016 by DHaven.org</Copyright>
+    <PackageProjectUrl>https://github.com/bloritsch/BibleUtilities</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/bloritsch/BibleUtilities/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/bloritsch/BibleUtilities</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>bible parsing internationalized netcore</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
     <RootNamespace>DHaven.BibleUtilities</RootNamespace>
-    <AssemblyName>BibleUtilities</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
-    <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AssemblyName>DHaven.BibleUtilities</AssemblyName>
+    <ApplicationIcon />
+    <Win32Resource />
+    <PackageReleaseNotes>Converted to NetCore 1.1</PackageReleaseNotes>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Label="MultilingualAppToolkit">
-    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
-    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
-  </PropertyGroup>
+
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <EmbeddedResource Include="Resources\Books.nb.resx">
+    <PackageReference Include="system.resources.resourcemanager" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Books.nb.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Books.nb.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\CommonMistakes.nb.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CommonMistakes.nb.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\CommonMistakes.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CommonMistakes.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\StandardAbbreviations.nb.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>StandardAbbreviations.nb.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\ThompsonAbbreviations.nb.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ThompsonAbbreviations.nb.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\ThompsonAbbreviations.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ThompsonAbbreviations.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\StandardAbbreviations.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>StandardAbbreviations.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Books.resx">
+    <EmbeddedResource Update="Resources\Books.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Books.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\CommonMistakes.nb.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\CommonMistakes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonMistakes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\StandardAbbreviations.nb.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\StandardAbbreviations.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StandardAbbreviations.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ThompsonAbbreviations.nb.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ThompsonAbbreviations.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ThompsonAbbreviations.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Bible.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reference.cs" />
-    <Compile Include="Resources\Books.nb.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Books.nb.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\CommonMistakes.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CommonMistakes.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\CommonMistakes.nb.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CommonMistakes.nb.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\StandardAbbreviations.nb.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StandardAbbreviations.nb.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\ThompsonAbbreviations.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ThompsonAbbreviations.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\StandardAbbreviations.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StandardAbbreviations.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Books.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Books.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\ThompsonAbbreviations.nb.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ThompsonAbbreviations.nb.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptureExtensions.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <XliffResource Include="MultilingualResources\BibleUtilities.nb.xlf" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" />
-  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
-    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
-  </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+
 </Project>
