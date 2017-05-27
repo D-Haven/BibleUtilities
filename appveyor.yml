@@ -16,7 +16,7 @@ test_script:
 cache:
 - '%USERPROFILE%\.nuget\packages'
 artifacts:
-- path: '**.nupkg'
+- path: '**\*.nupkg'
   name: nupkg
 deploy:
 - provider: NuGet
