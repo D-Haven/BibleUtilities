@@ -3,7 +3,7 @@
 Bible Utilities currently has tools to scan free text for scripture references, and to consolidate the list of references it finds
 to the smallest set.
 
-![Project Badge](https://ci.appveyor.com/api/projects/status/github/bloritsch/BibleUtilities?svg=true =350x)
+![Project Badge](https://ci.appveyor.com/api/projects/status/github/bloritsch/BibleUtilities?svg=true)
 
 * **NetCore 1.1** -- You can use it in just about any kind of project (store apps, standard apps, silverlight, Xamarin, etc.)
 * **I18n Savvy** -- Currently support for English ("en") and Norwegian ("nb"), submissions for more languages welcome
