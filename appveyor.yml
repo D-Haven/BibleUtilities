@@ -9,12 +9,11 @@ install:
 before_build: 
 - appveyor-retry dotnet restore -v Minimal
 build_script: 
+- dotnet clean
 - dotnet build -c %CONFIGURATION%
 test_script:
 - cd BibleUtilities.Test
 - dotnet xunit
-cache:
-- '%USERPROFILE%\.nuget\packages'
 artifacts:
 - path: '**\*.nupkg'
   name: nupkg
