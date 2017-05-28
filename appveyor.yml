@@ -1,0 +1,23 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: Any CPU
+install:
+- ECHO %APPVEYOR_BUILD_WORKER_IMAGE%
+- dotnet restore
+- dotnet --version
+before_build: 
+- appveyor-retry dotnet restore -v Minimal
+build_script: 
+- dotnet clean
+- dotnet build -c %CONFIGURATION%
+test_script:
+- cd BibleUtilities.Test
+- dotnet xunit
+artifacts:
+- path: '**\*.nupkg'
+  name: nupkg
+deploy:
+- provider: NuGet
+  api_key:
+    secure: GVSy3AVw/fQc61rjxY8/k8eyDLa0Ce5uq3Slze3a7Ht7XiP+djO3R/PsrGzyHlgo
