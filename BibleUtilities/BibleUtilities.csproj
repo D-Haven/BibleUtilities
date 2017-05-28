@@ -17,7 +17,8 @@
     <AssemblyName>DHaven.BibleUtilities</AssemblyName>
     <ApplicationIcon />
     <Win32Resource />
-    <PackageReleaseNotes>Converted to NetCore 1.1</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed a bug in the scripture reduction code.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

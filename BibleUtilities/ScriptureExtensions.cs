@@ -63,22 +63,26 @@ namespace DHaven.BibleUtilities
 
             foreach (var check in source.OrderBy(r => r))
             {
-                if (lastReference != null)
-                    if (lastReference.Book.Equals(check.Book) && lastReference.Chapter == check.Chapter)
-                    {
-                        var uniqueVerses = new HashSet<int>(lastReference.Verses.Union(check.Verses));
-                        lastReference.Verses = uniqueVerses.OrderBy(v => v).ToArray();
-                    }
-                    else
+                if (lastReference?.Book == check.Book && lastReference?.Chapter == check.Chapter)
+                {
+                    var uniqueVerses = new HashSet<int>(lastReference.Verses.Union(check.Verses));
+                    lastReference.Verses = uniqueVerses.OrderBy(v => v).ToArray();
+                }
+                else
+                {
+                    if (lastReference != null)
                     {
                         destination.Add(lastReference);
                     }
 
-                lastReference = check;
+                    lastReference = check;
+                }
             }
 
             if (lastReference != null)
+            {
                 destination.Add(lastReference);
+            }
 
             return destination;
         }
