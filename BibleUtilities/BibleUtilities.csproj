@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFrameworks>netcoreapp1.1;netstandard1.6;net46</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Berin Loritsch</Authors>
     <Company>DHaven.org</Company>
@@ -17,8 +17,8 @@
     <AssemblyName>DHaven.BibleUtilities</AssemblyName>
     <ApplicationIcon />
     <Win32Resource />
-    <PackageReleaseNotes>Fixed a bug in the scripture reduction code.</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Multi-target to make it usable in as many projects as possible</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
