@@ -3,7 +3,7 @@
 Bible Utilities currently has tools to scan free text for scripture references, and to consolidate the list of references it finds
 to the smallest set.
 
-[![Join the chat at https://gitter.im/BibleUtilities/Lobby](https://gitter.im/BibleUtilities/Lobby.svg)](https://gitter.im/BibleUtilities/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/BibleUtilities/Lobby](https://badges.gitter.im/BibleUtilities/Lobby.svg)](https://gitter.im/BibleUtilities/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/m6vkhcv9i74gdmm5/branch/master?svg=true)](https://ci.appveyor.com/project/bloritsch/bibleutilities/branch/master)
 
