@@ -48,7 +48,7 @@ namespace DHaven.BibleUtilities
         public CultureInfo Culture { get; set; }
 
         /// <summary>
-        ///     The unabreviated name of the book.
+        ///     The unabbreviated name of the book.
         /// </summary>
         public string Name => Resources.Books.GetString(bookResourceName, Culture);
 
@@ -130,7 +130,7 @@ namespace DHaven.BibleUtilities
         ///         <item>
         ///             <terms>n</terms>
         ///             <description>
-        ///                 use the full book name, but with Roman numerals.
+        ///                 Use the full book name, but with Roman numerals.
         ///                 <example>II Chronicles</example>
         ///             </description>
         ///         </item>
@@ -141,7 +141,7 @@ namespace DHaven.BibleUtilities
         /// <returns>the formatted string</returns>
         public string ToString(string format, IFormatProvider formatProvider)
         {
-            // Default to Thompsan references if none provided
+            // Default to Thompson references if none provided
             format = format ?? "T";
 
             switch (format)
@@ -344,15 +344,15 @@ namespace DHaven.BibleUtilities
             if (book != null)
                 return true;
 
-            // If we didn't find it, check to see if we just missed it because the abreviation
+            // If we didn't find it, check to see if we just missed it because the abbreviation
             // didn't have a period
             book = bible.AllBooks.FirstOrDefault(b =>
             {
-                var stdAbrev = b.StandardAbreviation;
-                if (stdAbrev.EndsWith("."))
-                    stdAbrev = stdAbrev.Substring(0, stdAbrev.Length - 1);
+                var stdAbbrev = b.StandardAbreviation;
+                if (stdAbbrev.EndsWith("."))
+                    stdAbbrev = stdAbbrev.Substring(0, stdAbbrev.Length - 1);
 
-                return potentialBook == stdAbrev;
+                return potentialBook == stdAbbrev;
             });
 
             if (book != null)
